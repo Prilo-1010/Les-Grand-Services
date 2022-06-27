@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Logo from '../assests/logo.png';
 import '../styles/Navbar.css'
 
+
 function Navbar() {
     //Fist state
     const [click, setClick] = useState(false);
