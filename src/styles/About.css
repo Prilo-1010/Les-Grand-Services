@@ -1,0 +1,45 @@
+
+/* About-Main */
+.about-main{
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #855a0c;
+    height: auto;
+  }
+  
+  .about-item{
+    padding: 20px;
+  }
+  .about-main>h2, .about-item>h2{
+    color: #fff;
+    font-size: 38px;
+    font-weight: 100;
+  }
+  
+  .about1{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+  }
+  .process{
+    padding: 20px;
+    display: flex;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+  }
+  .process-box>h3{
+    font-size: 25px;
+  }
+  .process-box>p{
+    font-size: 18px;
+  }
+  .process-box{
+    padding: 20px;
+  }

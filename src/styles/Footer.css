@@ -1,0 +1,117 @@
+.footer {
+    background-color: #7a1a1e;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* padding: 40px; */
+}
+
+/* Footer 1*/
+.footer1 {
+    width: 80%;
+    height: 300px;
+    background-color: #510608;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer1 img {
+    width: auto;
+    height: 170px;
+}
+
+.ftext>h3 {
+    color: #FFE184;
+    font-weight: 100;
+}
+
+/* Footer 2 */
+.footer2 {
+    width: 70%;
+    
+}
+
+.footer2>p{
+    color: #FFE184;
+    font-weight: 100;
+    font-size: 13px;
+}
+
+.flinks{
+    color: #FFE184;
+    padding: 5px 5px;
+    font-size: 18px;
+}
+
+.flinks:hover{
+    color: #b8901b;
+}
+
+ul{
+    padding: 0;
+}
+
+
+/* Footer 3 */
+.footer3 {
+    width: 70%;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.footer3>h2 {
+    color: #FFE184;
+    margin: 0;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.footerLinks {
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+.footerLinks li {
+    display: table;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.footerLinks li .flinks {
+    text-decoration: none;
+    color: #FFE184;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 5px 0px;
+}
+
+.footerLinks li .flinks:hover {
+    color: #b8901b;
+    font-weight: 500;
+}
+
+
+
+/* Footer Diagonal */
+.footer-diagonal {
+    background-image: url('../assests/footer-diagonal.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+}
