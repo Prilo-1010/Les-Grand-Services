@@ -5,15 +5,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 999;
   transition: 0.5s ease-in-out;
 }
 
 .navbar.act {
-  background-color: #111010;
+  background-color: #000000;
+  opacity: 0.93;
   transition: 0.5s;
+  box-shadow: 5px 2px #ffe084af;
 }
 
 .image {
@@ -21,6 +23,7 @@
   justify-content: center;
   align-items: center;
   text-align: left;
+  position: relative;
 }
 
 .image img {
@@ -48,12 +51,12 @@
 .navLinks li .links {
   text-decoration: none;
   color: #FFE184;
-  font-size: 20px;
+  font-size: 22px;
   padding: 5px 18px;
 }
 
 .navLinks li .links:hover {
-  color: #752225;
+  color: #b8901b;
   font-weight: 500;
 }
 
@@ -82,7 +85,7 @@
   left: 0;
   width: 100%;
   height: 2px;
-  background: #752225;
+  background: #510608;
 }
 
 .hoverLink:before {
@@ -110,7 +113,7 @@
 
 @media screen and (max-width: 960px) {
   .navbar {
-    background-color: #855a0c;
+    background-color: #000000cd;
     position: fixed;
     width: 100%;
   }
@@ -131,7 +134,7 @@
     opacity: 0.9;
     transition: all 1s ease;
     z-index: 1;
-    justify-content:left;
+    justify-content: left;
     text-align: center;
     padding: 0;
     margin: 0;
@@ -151,7 +154,7 @@
 
   .navLinks li .links {
     font-size: 30px;
-   
+
   }
 
   .menu-icon {
@@ -175,15 +178,15 @@
     display: contents;
   }
 
-  img {
-    margin: 10px 0 0 0;
-    width: auto;
-    height: 100;
-  }
-
   .image {
     text-align: center;
+    display: flex;
   }
 
-}
+  .image img {
+    padding: 0;
+    margin: auto;
+  }
 
+
+}

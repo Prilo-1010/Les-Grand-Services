@@ -29,15 +29,15 @@
     text-decoration: none;
     background-color: transparent;
     color: #510608;
-    font-weight: 500;
-    border: 2px solid #510608;
+    font-weight: 700;
+    border: 3px solid #510608;
     transition: all 0.3s ease-out;
   }
   
   .btn-primary:hover {
     color: #FFE184;
     transition: 250ms;
-    border: 2px solid #510608;
+    border: 3px solid #510608;
     background-color: #510608;
     opacity: 0.9;
   }

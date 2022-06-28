@@ -1,3 +1,11 @@
+:root {
+    --maroon: #510608;
+    --beige: #FFE184;
+    --yellow: #fbc620;;
+    --myblack: #111010;
+    --brown: #612f04c8;
+}
+
 .services{
     align-items: center;
     justify-items: center;
@@ -5,38 +13,57 @@
     background-image: url(../assests/background2.jpg);
     background-position: center;
     background-attachment: fixed;
-    background-size:contain;
+    background-size:cover;
+    background-repeat: no-repeat;
     width: 100%;
     height: auto;
-  padding: 30px;
- 
+    padding: 30px;
 }
 .services>h2{
-    color: white;
+    color: var(--beige);
+    font-size: 30px;
 }
 
 .subService{
-   display: flex;
-   width: 80%;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   width: 90%;
    margin:auto;
    
 }
 
 .service-items{
-    background-color: #000;
-    width: 30%;
+    background-color:var(--beige);
+    width: 80%;
     height: 300px;
-    box-shadow: 10px 10px 8px 10px #8888886b;
+    box-shadow: 10px 10px 8px 10px var(--brown);
     margin: 30px;
     padding: 20px;
+    border-radius: 5px;
 }
 
 .service-items>h2{
     font-size: 20px;
-    color: #fff;
+    color: var(--myblack);
     margin-top: 10px;
 }
 .service-items>p{
     font-size: 15px;
-    color: #fff;
+    color: var(--myblack);
+}
+
+@media screen and (max-width: 960px) {
+    .subService{
+        grid-template-columns: 1fr 1fr ;
+        width: 80%;
+        
+     }
+}
+
+@media screen and (max-width: 680px) {
+    .subService{
+        grid-template-columns: 1fr;
+        width: 80%;
+        
+     }
 }

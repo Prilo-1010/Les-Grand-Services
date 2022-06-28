@@ -6,13 +6,12 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    /* padding: 40px; */
 }
 
 /* Footer 1*/
 .footer1 {
-    width: 80%;
-    height: 300px;
+    width: 40%;
+    height: 230px;
     background-color: #510608;
     padding: 20px;
     align-items: center;
@@ -22,38 +21,55 @@
 
 .footer1 img {
     width: auto;
-    height: 170px;
+    height: 130px;
 }
 
 .ftext>h3 {
     color: #FFE184;
     font-weight: 100;
+    font-size: 20px;
 }
 
 /* Footer 2 */
 .footer2 {
     width: 70%;
-    
 }
 
-.footer2>p{
+.footer2>p {
     color: #FFE184;
     font-weight: 100;
-    font-size: 13px;
+    font-size: 16px;
 }
 
-.flinks{
+.flinks {
     color: #FFE184;
     padding: 5px 5px;
     font-size: 18px;
 }
 
-.flinks:hover{
+.flinks:hover {
     color: #b8901b;
 }
 
-ul{
+.footerSocial {
+    list-style: none;
     padding: 0;
+}
+
+.footerSocial li {
+    display: inline-block;
+}
+
+.footerSocial li .flinks {
+    text-decoration: none;
+    color: #FFE184;
+    font-size: 20px;
+    padding: 5px 18px;
+}
+
+.footerSocial li .flinks:hover {
+    color: #752225;
+    font-weight: 500;
 }
 
 
@@ -104,6 +120,10 @@ ul{
     font-weight: 500;
 }
 
+.footer-light {
+    display: flex;
+    width: 100%;
+}
 
 
 /* Footer Diagonal */
@@ -112,6 +132,62 @@ ul{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 500px;
-    height: 300px;
+    width: 300px;
+    height: 230px;
+}
+
+@media screen and (max-width: 960px) {
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .footer-diagonal {
+        display: none;
+    }
+
+    .footer1 {
+        height: 140px;
+        width: 100%;
+    }
+
+    .footer1 img {
+        width: auto;
+        height: 90px;
+        margin: 0;
+    }
+
+    .footer-light {
+        padding: 0px 100px;
+    }
+
+}
+
+@media screen and (max-width: 620px) {
+    .ftext>h3 {
+        font-size: 13px;
+    }
+
+    .footer3>h2 {
+        font-size: 15px;
+    }
+
+    .footerLinks li .flinks {
+        font-size: 13px;
+    }
+
+    .footer2>p {
+        font-size: 13px;
+    }
+
+    .flinks {
+        font-size: 15px;
+    }
+
+    .footer-light {
+        padding: 30px;
+    }
+
+
 }

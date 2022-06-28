@@ -3,7 +3,6 @@ import Home from '../sections/Home';
 import About from '../sections/About';
 import Service from '../sections/Service';
 import Portfolio from '../sections/Portfolio';
-import Pricing from '../sections/Pricing';
 
 function Main() {
   return (
@@ -12,7 +11,6 @@ function Main() {
        <About />
        <Service/>
        <Portfolio/>
-       <Pricing/>
 
     </>
   )

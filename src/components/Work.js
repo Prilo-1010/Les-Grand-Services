@@ -14,12 +14,12 @@ function Work(props) {
                     </div>
                     <div class="items header">
                         <Button
-                            buttonStyle='btn-primary'
+                            buttonStyle='btn-other'
                             buttonSize='btn-medium'
                             type='submit'
                             onClick={console.log('Form Submitted successfully')}
                         >
-                            View Project
+                            View 
                         </Button>
                     </div>
 
