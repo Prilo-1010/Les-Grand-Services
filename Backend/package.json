@@ -1,0 +1,31 @@
+{
+  "name": "le_grande_service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prilo-1010/Le-Grand-Service.git"
+  },
+  "author": "Prosper Lolo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prilo-1010/Le-Grand-Service/issues"
+  },
+  "homepage": "https://github.com/Prilo-1010/Le-Grand-Service#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "email-validator": "^2.0.4",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}

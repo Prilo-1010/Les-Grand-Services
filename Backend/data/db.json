@@ -1,0 +1,70 @@
+{
+   "blogs":[
+    {
+        "id": 1,
+        "title": "NFT Animations ",
+        "body": " WHy do we use it?\nIt is a long established fact that a reader will be distracted y a minor issue caused will developing a web application",
+        "author": "Eben-Lael",
+        "company":"Les Grande Services",
+        "date": "2022-07-04T10:50:42.538+00:00",
+        "image": "http://www.pexels.com/photo/information-sign-on-shelf-251225/"
+    },
+    {
+        "id": 2,
+        "title": "Development Tricks",
+        "body": " WHy do we use it?\nIt is a long established fact that a reader will be distracted y a minor issue caused will developing a web application",
+        "author": "Prosper",
+        "company":"Les Grande Services",
+        "date": "2022-07-09T10:50:42.538+00:00",
+        "image":"/images/background1.jpg"
+    },
+    {
+        "id": 3,
+        "title": "New Day, New Coding stlye",
+        "body": " WHy do we use it?\nIt is a long established fact that a reader will be distracted y a minor issue caused will developing a web application",
+        "author": "Prosper",
+        "company":"Les Grande Services",
+        "date": "2022-07-10T10:50:42.538+00:00",
+        "image":"../images/background1.jpg"
+    }
+    ,
+    {
+        "id": 4,
+        "title": "New Day, New Coding stlye",
+        "body": " WHy do we use it?\nIt is a long established fact that a reader will be distracted y a minor issue caused will developing a web application",
+        "author": "Prosper",
+        "company":"Les Grande Services",
+        "date": "2022-07-10T10:50:42.538+00:00",
+        "image":"../images/background1.jpg"
+    }
+   ] ,
+
+    "portfolio":[
+        {
+            "id": 1,
+            "title": "Web Design",
+            "image": "http://www.pexels.com/photo/information-sign-on-shelf-251225/",
+            "type": "Design"
+        },
+        {
+            "id": 2,
+            "title": "Websites",
+            "image":"/images/background1.jpg",
+            "type": "Logo"
+        },
+        {
+            "id": 3,
+            "title": "Videos",
+            "image":"../images/background1.jpg",
+            "type": "Design"
+            
+        }
+        ,
+        {
+            "id": 4,
+            "title": "NFT Animaton",
+            "image":"../images/background1.jpg",
+            "type": "NFT"
+        }
+       ]  
+}
