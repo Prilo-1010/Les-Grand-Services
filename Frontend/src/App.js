@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Main from './pages/Main';
 import Contact from './pages/Contact';
-import Portfolio from './pages/Portfolio';
+import { Portfolio, PortfolioDetails } from './pages/Portfolio';
 import { Blogs, BlogDetails } from './pages/Blogs';
 import { CircleLoader } from 'react-spinners';
 import './styles/App.css'
@@ -29,7 +29,7 @@ function App() {
           <Routes>
             <Route exact path='/' element={<Main />} />
             <Route path='/portfolio' element={<Portfolio />} />
-            {/* <Route path='/portfolio/:id' element={<PortfolioDetails />} /> */}
+            <Route path='/portfolio/:id' element={<PortfolioDetails />} />
             <Route path='/blogs' element={<Blogs />} />
             <Route path='/blogs/:id' element={<BlogDetails />} />
             <Route path='/contact' element={<Contact />} />

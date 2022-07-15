@@ -7,7 +7,11 @@ const useFetch = (url) => {
 
     useEffect(()=>{
         const request = async () => {
-            const response = await fetch(url);
+            const response = await fetch(url,{
+                headers: {
+                    'Content-Type': 'application/jsonp'
+                  }
+            });
             const data = await response.json();
             if(!response.ok){
                 throw Error('could not fetch the data..')

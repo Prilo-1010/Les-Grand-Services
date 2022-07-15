@@ -1,4 +1,5 @@
 const { blogs } = require('../data/db.json')
+
 //desc  GET blogs
 //route /blogs
 const getBlogs = async(req, res) =>{

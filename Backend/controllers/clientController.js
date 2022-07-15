@@ -1,5 +1,5 @@
 const Client = require('../models/clientModel')
-var validator = require("email-validator");
+const validator = require("email-validator");
  
 
 // @desc POST info

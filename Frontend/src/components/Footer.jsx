@@ -39,7 +39,7 @@ function Footer() {
                             <a className='flinks' href='https://www.instagram.com/les_grand_services'>
                                 <li><i className="fa-brands fa-instagram"></i></li>
                             </a>
-                            <a className='flinks' href="https://www.twitter.com/ProsperLolo">
+                            <a className='flinks' href="https://twitter.com/L_G_Services">
                                 <li><i className="fa-brands fa-twitter"></i></li>
                             </a>
                             <a className='flinks' href="https://www.facebook.com/le_grand_service-101815039261076">

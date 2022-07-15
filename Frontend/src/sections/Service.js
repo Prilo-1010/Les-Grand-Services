@@ -8,20 +8,20 @@ function Service() {
         <h2>Comprehensive Service</h2>
         <div className='subService'>
           <ServiceDetails
-            header="Data Science"
+            header="Web Development"
             subheader="coming soon"
             details='FGHJJKHKJHGJVJBVJ' />
           <ServiceDetails
-            header="Data Science"
+            header="Web Design"
             subheader="coming soon" />
           <ServiceDetails
-            header="Data Science"
+            header="NFT Animations"
             subheader="coming soon" />
           <ServiceDetails
-            header="Data Science"
+            header="Logo Design"
             subheader="coming soon" />
           <ServiceDetails
-            header="Data Science"
+            header="Video Making"
             subheader="coming soon" />
           <ServiceDetails
             header="Data Science"

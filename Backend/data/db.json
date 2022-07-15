@@ -7,7 +7,7 @@
         "author": "Eben-Lael",
         "company":"Les Grande Services",
         "date": "2022-07-04T10:50:42.538+00:00",
-        "image": "http://www.pexels.com/photo/information-sign-on-shelf-251225/"
+        "image": "https://i.pinimg.com/736x/f3/80/bc/f380bce7ef45c283a3a20d3a72b2acd6.jpg"
     },
     {
         "id": 2,
@@ -16,7 +16,7 @@
         "author": "Prosper",
         "company":"Les Grande Services",
         "date": "2022-07-09T10:50:42.538+00:00",
-        "image":"/images/background1.jpg"
+        "image":"https://images.pexels.com/photos/3015339/pexels-photo-3015339.jpeg?cs=srgb&dl=pexels-rombo-3015339.jpg&fm=jpg"
     },
     {
         "id": 3,
@@ -25,17 +25,17 @@
         "author": "Prosper",
         "company":"Les Grande Services",
         "date": "2022-07-10T10:50:42.538+00:00",
-        "image":"../images/background1.jpg"
+        "image":"https://images.pexels.com/photos/8892/pexels-photo.jpg?cs=srgb&dl=pexels-life-of-pix-8892.jpg&fm=jpg"
     }
     ,
     {
         "id": 4,
-        "title": "New Day, New Coding stlye",
+        "title": "Todays Technology",
         "body": " WHy do we use it?\nIt is a long established fact that a reader will be distracted y a minor issue caused will developing a web application",
         "author": "Prosper",
         "company":"Les Grande Services",
         "date": "2022-07-10T10:50:42.538+00:00",
-        "image":"../images/background1.jpg"
+        "image":"https://images.pexels.com/photos/696644/pexels-photo-696644.jpeg?cs=srgb&dl=pexels-gabriel-peter-696644.jpg&fm=jpg"
     }
    ] ,
 

@@ -1,4 +1,3 @@
-import pic from '../images/404-background.jpg'
 import { Link } from 'react-router-dom';
 import formatDistanceToNow from 'date-fns/formatDistanceToNow'
 
@@ -8,7 +7,7 @@ const BlogInfo = ({ blogs }) => {
             {blogs.map((blog) => (
                 <div className="blog-card-info" key={blog.id}>
                     <div className='blog-image-info'>
-                        <img src={pic} alt='pic' />
+                        <img src={blog.image} alt='pic' />
                     </div>
                     <div className='blog-details-info'>
                         <div className='blog-header'>

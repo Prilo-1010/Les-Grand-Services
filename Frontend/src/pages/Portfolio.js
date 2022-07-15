@@ -1,9 +1,11 @@
 import React from 'react';
 import '../styles/Portfolio.css';
 import Work from '../components/Work';
+import WorkDetails from '../components/WorkDetails';
 import useFetch from '../hooks/useFetch';
+import { useParams } from 'react-router-dom';
 
-const Portfolio = () => {
+export const Portfolio = () => {
   const { data: works, error, loading } = useFetch('/portfolio')
   return (
     <>
@@ -24,4 +26,18 @@ const Portfolio = () => {
   )
 }
 
-export default Portfolio
+export const PortfolioDetails = () => {
+  const { id } = useParams()
+  const { data: work, error, loading } = useFetch(`/portfolio/${id}`)
+  return (
+    <>
+      <div className='portfolio'>
+        <div className='portfolio-container' >
+            {error && <div>{error}</div>}
+            {loading && <div className='btext'><h2>Loading..</h2></div>}
+            {work && <WorkDetails portfolio={work} />}
+          </div>
+        </div>
+    </>
+  )
+}
